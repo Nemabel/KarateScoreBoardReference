@@ -10,6 +10,7 @@ public class Competitor {
     Boolean senshu;
 
     CompetitorPointLabel competitorPointLabel;
+    AdmonitionPanel admonitionPanel;
     CompetitorPanel competitorPanel;
 
     public Competitor(String _name, Color _color, Boolean _left, CustomFont _customFont) {
@@ -22,6 +23,7 @@ public class Competitor {
         senshu = false;
 
         competitorPointLabel = new CompetitorPointLabel(this);
+        admonitionPanel = new AdmonitionPanel(this);
         competitorPanel = new CompetitorPanel(this);
     }
 
@@ -66,5 +68,6 @@ public class Competitor {
         admonitions = 0;
         senshu = false;
         competitorPointLabel.refreshPoints();
+        admonitionPanel.refreshAdmonitions();
     }
 }

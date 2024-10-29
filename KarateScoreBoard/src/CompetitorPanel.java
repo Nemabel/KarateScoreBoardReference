@@ -12,7 +12,7 @@ public class CompetitorPanel {
         competitor = _competitor;
         competitorPointLabel = competitor.competitorPointLabel;
         PointControlPanel pointControlPanel = new PointControlPanel(competitor);
-        AdmonitionPanel admonitionPanel = new AdmonitionPanel(competitor);
+        AdmonitionPanel admonitionPanel = competitor.admonitionPanel;
 
         ///Control Panel setup
         controlPanel = new JPanel();
