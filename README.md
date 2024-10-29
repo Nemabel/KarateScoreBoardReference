@@ -27,4 +27,7 @@ And this to the screen / tv facing the tatami:
 
 💻 Using the program
 
-We actually use this program in our in-house competitions. It has had several iterations, bug fixes and got a few new features since i started this project, but we are quite happy with it now.
+We actually use this program in our in-house competitions. It has had several iterations, bug fixes and got a few new features since i started this project, i regulary update and refactor the code.
+
+The project was developed in IntellIJ idea, using local git repository. There are things that could be tidied up a little bit, the project is not 100% finished.
+Every line of code in this program was written by me: Ábel Adrián Németh.
