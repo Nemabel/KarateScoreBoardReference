@@ -1,4 +1,4 @@
-# KarateDisplayReference
+# KarateScoreBoardReference
 
 🥋 Karate Scoreboard
 Welcome to Karate Scoreboard – a Java-based digital scoreboard crafted for karate competitions! This project was developed using Object-Oriented Programming (OOP) principles to provide a robust, modular, and efficient solution for real-time score display.
